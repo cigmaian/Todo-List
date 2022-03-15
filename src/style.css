@@ -1,0 +1,42 @@
+:root{
+    --font-color-header: ;
+    --font-color-sidebar: ;
+    --font-color-main: ;
+    --font-color-dark: ;
+    --border-color: ;
+    --background-header: ;
+    --background-sidebar: ;
+    --background-main: ;
+    --background-footer: ;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6;
+}
+
+body {
+   
+    font-size: 1.6rem;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    color: var(--font-color-header);
+    font-size: 3rem;
+    background-color: var(--font-color-header);
+    
+}
